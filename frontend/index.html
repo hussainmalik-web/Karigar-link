@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#064E3B">
+  <link rel="icon" href="/app/favicon.svg" type="image/svg+xml">
+  <title>Karigar Link — Artisan Business OS</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/app/style.css?v=41">
+  <link rel="stylesheet" href="/app/design.css?v=1"><link rel="stylesheet" href="/app/craft-overrides.css?v=1">
+</head>
+<body>
+<div class="shell">
+  <aside>
+    <div class="brand">
+      <div class="logo">क</div>
+      <div>
+        <b>KARIGAR LINK</b>
+        <small>ARTISAN BUSINESS OS</small>
+      </div>
+    </div>
+
+    <div class="cluster-strip">
+      <span>CRAFT • MARKET • GROWTH</span>
+      <em>●</em>
+    </div>
+
+    <nav aria-label="Main navigation">
+      <div class="nav-group">
+        <div class="nav-heading">Core Operations</div>
+        <button class="nav active" data-page="home"><span class="nav-icon">⌂</span><span>Overview</span></button>
+        <button class="nav" data-page="products"><span class="nav-icon">◇</span><span data-i18n="Products">Products</span></button>
+        <button class="nav" data-page="marketplace"><span class="nav-icon">▣</span><span>Digital Marketplace</span></button>
+        <button class="nav" data-page="enquiries"><span class="nav-icon">✉</span><span>Buyer Enquiries</span></button>
+      </div>
+
+      <div class="nav-group commerce-nav-group">
+        <div class="nav-heading">Commerce & Storefront</div>
+        <button class="nav" data-page="subscriptions" type="button"><span class="nav-icon">₹</span><span>Plans & Store Sync</span></button>
+        <button class="nav" data-page="sellerorders" type="button"><span class="nav-icon">▣</span><span>Customer Orders</span></button>
+        <a class="nav" href="/app/store.html" target="_blank" rel="noopener" style="text-decoration:none"><span class="nav-icon">🛍</span><span>Customer Storefront ↗</span></a>
+      </div>
+
+      <div class="nav-group">
+        <div class="nav-heading">Intelligence Engine</div>
+        <button class="nav" data-page="forecast"><span class="nav-icon">↗</span><span>Demand & Forecasting</span><small>What should I make next?</small></button>
+        <button class="nav" data-page="pricing"><span class="nav-icon">₹</span><span>Pricing Intelligence</span><small>What price should I charge?</small></button>
+        <button class="nav" data-page="markets"><span class="nav-icon">⌖</span><span data-i18n="Market Intelligence">Market Intelligence</span><small data-i18n="Where should I sell?">Where should I sell?</small></button>
+      </div>
+
+      <div class="nav-group">
+        <div class="nav-heading">Artisan Studio & Growth</div>
+        <button class="nav" data-page="catalogue"><span class="nav-icon">▤</span><span>Smart Catalogue</span></button>
+        <button class="nav" data-page="studio"><span class="nav-icon">✦</span><span>Market Ready Studio</span></button>
+        <button class="nav" data-page="history"><span class="nav-icon">↥</span><span>Historical Sales Data</span></button>
+        <button class="nav" data-page="impact"><span class="nav-icon">▥</span><span>Business Insights & Impact</span></button>
+      </div>
+
+      <div class="nav-group">
+        <div class="nav-heading">Live Market Access</div>
+        <button class="nav live" data-page="news"><span class="nav-icon">◌</span><span>Market News</span><b>LIVE</b></button>
+        <button class="nav live" data-page="schemes"><span class="nav-icon">♜</span><span>Government Schemes</span><b>LIVE</b></button>
+        <button class="nav live" data-page="opportunities"><span class="nav-icon">✧</span><span>Business Opportunities</span><b>LIVE</b></button>
+      </div>
+    </nav>
+
+    <div class="side-note">
+      <div class="side-note-mark">✦</div>
+      <div><b>Crafted for better decisions</b><br><span>Business intelligence with a human, artisan-first interface.</span></div>
+    </div>
+  </aside>
+
+  <main>
+    <header>
+      <div class="mobile-brand"><span class="mobile-logo">क</span><b>KARIGAR LINK</b></div>
+      <div class="header-copy">
+        <span class="eyebrow">ARTISAN BUSINESS OS</span>
+        <h1 id="title">Overview</h1>
+        <p id="subtitle">Your craft. Your market. Your next opportunity.</p>
+      </div>
+      <div class="header-tools"><select id="languageSelect" class="language-select" aria-label="Language"><option value="en">English</option><option value="hi">Hindi</option><option value="bn">Bengali</option><option value="mr">Marathi</option><option value="te">Telugu</option><option value="ta">Tamil</option><option value="gu">Gujarati</option><option value="kn">Kannada</option><option value="pa">Punjabi</option><option value="ml">Malayalam</option><option value="or">Odia</option><option value="as">Assamese</option></select><button id="profileBtn" class="profile-btn" type="button" onclick="openAuth()">Sign in</button>
+        <div class="search-shell"><span class="search-icon">⌕</span><input id="globalSearch" aria-label="Search" placeholder="Search products, markets, schemes, or opportunities..." autocomplete="off" /><button class="search-btn" type="button" onclick="globalSearch()">Search</button><div id="searchResults" class="search-results" hidden></div></div>
+        <div class="status"><i></i> System ready</div>
+      </div>
+    </header>
+    <div id="google_translate_element" class="google-translate-hidden"></div>
+    <div class="art-rule"><span></span><i>handmade • market-ready • purposeful</i><span></span></div>
+    <section id="content"></section>
+    <footer class="site-footer"><span>✦</span> Karigar Link <b>•</b> Empowering artisans <b>•</b> Building better markets <span>✦</span></footer>
+  </main>
+</div>
+<script src="/app/app.js?v=41"></script><script src="/app/motion.js?v=1"></script><script>window.googleTranslateElementInit=function(){new google.translate.TranslateElement({pageLanguage:"en",autoDisplay:false},"google_translate_element")}</script><script src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+</body>
+</html>

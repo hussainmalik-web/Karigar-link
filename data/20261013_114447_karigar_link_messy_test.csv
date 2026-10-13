@@ -1,0 +1,33 @@
+Date,Product Name,Material,Quantity,Price,City,Buyer Type,Payment Method
+9/1/2026,Wooden Tray,Wood,12,450,Ujjain,Retailer,UPI
+9/2/2026,Brass Diya,Brass,18,220,Indore,Wholesaler,Cash
+9/3/2026,Clay Pot,Clay,25,180,ujjain,Retailer,UPI
+9/4/2026,Bamboo Basket,Bamboo,10,350,UJJAIN,Wholesaler,Bank Transfer
+9/5/2026,Hand-painted Plate,Wood,8,520,Indore,Retailer,Cash
+9/6/2026,Terracotta Lamp,Clay,15,275,Dewas,Retailer,UPI
+9/7/2026,Wooden Bowl,Wood,9,400,Ratlam,Wholesaler,Cash
+9/8/2026,Brass Bell,Brass,7,650,Ujjain,Retailer,UPI
+9/9/2026,Jute Wall Hanging,Jute,11,300,Indore,Retailer,Bank Transfer
+9/10/2026,Clay Vase,Clay,14,375,Dewas,Wholesaler,UPI
+9/11/2026,Wooden Tray ,Wood,13,450,ujjain,Retailer,Cash
+9/12/2026,Brass Diya,Brass,,220,Indore,Wholesaler,UPI
+9/13/2026,,Clay,20,190,Ujjain,Retailer,Cash
+9/14/2026,Bamboo Basket,Bamboo,16,350,,Wholesaler,Bank Transfer
+9/15/2026,Terracotta Lamp,Clay,17,275,Dewas,Retailer,UPI
+9/16/2026,Wooden Bowl,Wood,6,400,Ratlam,Retailer,Cash
+9/17/2026,Brass Bell,Brass,5,,Ujjain,Wholesaler,UPI
+9/18/2026,Jute Wall Hanging,Jute,12,300,Indore,Retailer,Bank Transfer
+9/19/2026,Clay Vase,Clay,19,375,,Wholesaler,UPI
+9/20/2026,Hand-painted Plate,Wood,8,520,Dewas,Retailer,Cash
+9/21/2026,Wooden Tray,Wood,11,450,Ujjain,Retailer,UPI
+9/22/2026,Brass Diya,Brass,22,220,Indore,Wholesaler,Cash
+9/23/2026,Clay Pot,Clay,24,180,ujjain,Retailer,UPI
+9/24/2026,Bamboo Basket,Bamboo,9,350,UJJAIN,Wholesaler,Bank Transfer
+2026-09-31,Terracotta Lamp,Clay,15,275,Dewas,Retailer,UPI
+9/26/2026,Wooden Bowl,Wood,7,400,Ratlam,Retailer,Cash
+9/27/2026,Brass Bell,Brass,6,650,Ujjain,Wholesaler,UPI
+9/28/2026,Jute Wall Hanging,Jute,500,300,Indore,Retailer,Bank Transfer
+9/29/2026,Clay Vase,Clay,14,375,Dewas,Wholesaler,UPI
+9/30/2026,Hand-painted Plate,Wood,8,520,Indore,Retailer,Cash
+9/8/2026,Brass Bell,Brass,7,650,Ujjain,Retailer,UPI
+9/21/2026,Wooden Tray,Wood,11,450,Ujjain,Retailer,UPI

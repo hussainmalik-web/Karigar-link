@@ -1,0 +1,35 @@
+KARIGAR LINK V13 — ARTISAN BUSINESS OS + COMMERCE MVP
+
+1. Open PowerShell in this folder.
+2. cd backend
+3. python -m venv venv
+4. .\venv\Scripts\Activate.ps1
+5. python -m pip install -r requirements.txt
+6. python -m uvicorn app.main:app --reload --port 8765
+7. Open http://127.0.0.1:8765
+8. If Chrome shows an older page, press Ctrl+Shift+R.
+
+This build preserves the original V2.3 depth and adds Market News, Government Schemes and Business Opportunities.
+
+LOCAL AI SETUP
+1. Start Ollama.
+2. In PowerShell run: ollama list
+3. If llama3.2:1b is missing run: ollama pull llama3.2:1b
+4. Start Karigar Link with RUN_KARIGAR_LINK.bat.
+5. Open the Assistant panel inside the Karigar Link website.
+
+
+NEW COMMERCE DEMO (local only)
+- Artisan Business OS: http://127.0.0.1:8765/
+- Customer storefront: http://127.0.0.1:8765/app/store.html
+- Admin console: http://127.0.0.1:8765/app/admin.html
+
+To test the full flow:
+1. Open Artisan Business OS and choose Plans & Store Sync.
+2. Activate the ₹199 plan using the clearly marked DEMO activation (no payment is collected).
+3. For each product, set a stock quantity and optionally add an image URL/SKU, then click Publish / Sync.
+4. Open the customer storefront, add a product to the bag and place a test Cash on Delivery order.
+5. Open Admin and use the local development key `dev-admin-change-me` to review the order and change its status.
+6. Customers can create an account or sign in on the storefront, and use Track order to check status with the order number and checkout email.
+
+The customer storefront, subscriptions, inventory and order management are a local MVP. Real subscription billing, online payment processing, shipping integrations, full customer accounts, and production-grade admin authentication are not connected. Do not expose this build to the public internet as-is. Change KARIGAR_ADMIN_KEY and add proper authorization before deployment.
